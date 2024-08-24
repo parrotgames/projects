@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris - Parrot Games</title>
+  <link rel="shortcut icon" href="images/tetris-logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header class="game-header">
+      <h1>Tetris</h1>
+      <p id="score">Score: 0</p>
+    </header>
+    <canvas width="320" height="640" id="game"></canvas>
+    <div class="game-over" id="game-over">
+      <h2>Game Over!</h2>
+      <button id="restart-game">Restart Game</button>
+    </div>
+    <div class="controls">
+      <button id="rotate">Rotate</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
