@@ -82,32 +82,6 @@ canvas {
     transform: scale(1.1);
 }
 
-.controls {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 80%;
-    right: 0px;
-    z-index: 10;
-}
-
-.controls button {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: none;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.controls button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .game-container {
@@ -125,21 +99,6 @@ canvas {
     canvas {
         width: 240px;
         height: 480px;
-    }
-
-    .controls {
-        top: 70%;
-        right: 5px;
-        flex-direction: row;
-        justify-content: space-between;
-        width: calc(100% - 20px);
-        padding: 0 10px;
-    }
-
-    .controls button {
-        margin: 2px;
-        padding: 8px;
-        font-size: 0.9rem;
     }
 
     .game-over {
@@ -168,19 +127,6 @@ canvas {
     canvas {
         width: 200px;
         height: 400px;
-    }
-
-    .controls {
-        top: 80%;
-        flex-direction: column;
-        width: auto;
-        padding: 0;
-    }
-
-    .controls button {
-        margin: 2px;
-        padding: 8px;
-        font-size: 0.8rem;
     }
 
     .game-over {
